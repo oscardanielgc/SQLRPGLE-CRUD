@@ -127,11 +127,7 @@
        dcl-proc Pr_WriteScreen ;
          dcl-pi Pr_WriteScreen ;
            Par_Choice char(1) ;
-         end-pi ;
-
-         // Secondary titles
-         TITLE2 = Pr_Center('Created by Rodrigo Cardona':%len(TITLE2)) ;
-         TITLE3 = Pr_Center('Medellin-Colombia 2017':%len(TITLE3)) ;
+         end-pi ;       
 
          // Principal title
          select ;
